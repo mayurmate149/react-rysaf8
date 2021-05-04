@@ -1,0 +1,18 @@
+.size-container{
+    margin-top: 1rem;
+}
+.size{
+    background: none;
+    padding: .5rem 1rem;
+    box-shadow: none;
+    border: 1px solid #4a4a4a;
+    margin-right: .5rem;
+    border-radius: .2rem;
+    color: #4a4a4a;
+}
+.size:hover{
+    cursor: pointer;
+}
+.active {
+    outline: 1px solid red !important;
+}
