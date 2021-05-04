@@ -1,19 +1,26 @@
-import React, { Component, useState } from 'react'
-import '../css/Capacity.css';
+import React, { Component, useState, useContext } from "react";
+import { DataContext } from "../Context";
+import "../css/Capacity.css";
 
-const Colors = function (props) {
-    const [activeIndex, setActiveIndex] = useState(0);
-    const { colors } = props;
-    return (
-        <div className="colors">
-            {
-                colors.map((color, index) => {
-                    const activeClass = activeIndex === index && 'active';
-                    return <button className={activeClass} onClick={() => setActiveIndex(index)} key={index} style={{ background: color }}></button>
-                })
-            }
-        </div>
-    )
-}
+const Colors = function(props) {
+  const { colors } = props;
+  const { selectedColor, updateSelectedColor } = useContext(DataContext);
 
-export default Colors
+  return (
+    <div className="colors">
+      {colors.map((color, index) => {
+        const activeClass = color.name === selectedColor && "active";
+        return (
+          <button
+            className={activeClass}
+            onClick={() => updateSelectedColor(color.name)}
+            key={index}
+            style={{ background: color.name }}
+          />
+        );
+      })}
+    </div>
+  );
+};
+
+export default Colors;
