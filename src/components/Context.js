@@ -144,6 +144,51 @@ export class DataProvider extends Component {
               "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-pro-blue-hero?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1604021661000"
           }
         ]
+      },
+      {
+        _id: "4",
+        title: "iPhone X🅁",
+        capacity: [64, 128, 256],
+        capacityDetails: {
+          64: {
+            price: 399,
+            description:
+              "New Apple iPhone SE (64GB) [Locked] + Carrier Subscription",
+            content:
+              "Fingerprint sensor built into the Home button Maximum depth of 1 metre up to 30 minutes Water Resistant True Tone display, Wide colour display (P3), Haptic Touch 625 nits max brightness (typical), Display Zoom, Reachability Portrait mode with advanced bokeh and Depth Control 4K video recording at 24 fps, 30 fps or 60 fps Video Recording Digital zoom up to 3x, LED True Tone flash, QuickTake video Slow-motion video support for 1080p at 120 fps or 240 fps Time-lapse video with stabilisation, Stereo recording 802.11ax Wi‑Fi 6 with 2x2 MIMO, Bluetooth 5.0 wireless technology NFC with reader mode, Express Cards with power reserve FaceTime audio, Voice over LTE (VoLTE), Wi‑Fi calling"
+          },
+          128: {
+            price: 499,
+            description:
+              "New Apple iPhone SE (128GB) [Locked] + Carrier Subscription",
+            content:
+              "Fingerprint sensor built into the Home button Maximum depth of 1 metre up to 30 minutes Water Resistant True Tone display, Wide colour display (P3), Haptic Touch 625 nits max brightness (typical), Display Zoom, Reachability Portrait mode with advanced bokeh and Depth Control 4K video recording at 24 fps, 30 fps or 60 fps Video Recording Digital zoom up to 3x, LED True Tone flash, QuickTake video Slow-motion video support for 1080p at 120 fps or 240 fps Time-lapse video with stabilisation, Stereo recording 802.11ax Wi‑Fi 6 with 2x2 MIMO, Bluetooth 5.0 wireless technology NFC with reader mode, Express Cards with power reserve FaceTime audio, Voice over LTE (VoLTE), Wi‑Fi calling"
+          },
+          256: {
+            price: 529,
+            description:
+              "New Apple iPhone SE (256GB) [Locked] + Carrier Subscription",
+            content:
+              "Fingerprint sensor built into the Home button Maximum depth of 1 metre up to 30 minutes Water Resistant True Tone display, Wide colour display (P3), Haptic Touch 625 nits max brightness (typical), Display Zoom, Reachability Portrait mode with advanced bokeh and Depth Control 4K video recording at 24 fps, 30 fps or 60 fps Video Recording Digital zoom up to 3x, LED True Tone flash, QuickTake video Slow-motion video support for 1080p at 120 fps or 240 fps Time-lapse video with stabilisation, Stereo recording 802.11ax Wi‑Fi 6 with 2x2 MIMO, Bluetooth 5.0 wireless technology NFC with reader mode, Express Cards with power reserve FaceTime audio, Voice over LTE (VoLTE), Wi‑Fi calling"
+          }
+        },
+        colors: [
+          {
+            name: "yellow",
+            imageUrl:
+              "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-xr-yellow-select-201809?wid=470&hei=556&fmt=png-alpha&.v=1551226036826"
+          },
+          {
+            name: "Black",
+            imageUrl:
+              "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-xr-black-select-201809?wid=470&hei=556&fmt=png-alpha&.v=1551226038992"
+          },
+          {
+            name: "Coral",
+            imageUrl:
+              "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-xr-coral-select-201809?wid=470&hei=556&fmt=png-alpha&.v=1551226036571"
+          }
+        ]
       }
     ],
     total: 0,
