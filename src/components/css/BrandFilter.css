@@ -1,0 +1,21 @@
+.option-filter {
+  display: flex;
+  justify-content: center;
+}
+.option-filter ul {
+  list-style: none;
+  padding: 0;
+}
+.option-filter li {
+  display: inline-block;
+  border: 1px solid #ccc;
+  margin: 5px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.option-filter li.active-brand {
+  background-color: rgb(199 199 199);
+}
+.option-filter li:hover {
+  background-color: rgb(199 199 199);
+}

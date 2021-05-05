@@ -8,6 +8,7 @@ export class DataProvider extends Component {
       {
         _id: "1",
         title: "Apple iPhone 11",
+        brand: "Apple",
         capacity: [64, 128, 256],
         capacityDetails: {
           64: {
@@ -59,6 +60,7 @@ export class DataProvider extends Component {
         _id: "2",
         title: "iPhone SE",
         capacity: [64, 128, 256],
+        brand: "Apple",
         capacityDetails: {
           64: {
             price: 399,
@@ -103,6 +105,7 @@ export class DataProvider extends Component {
       {
         _id: "3",
         title: "iPhone 12 Pro",
+        brand: "Apple",
         capacity: [64, 128, 256],
         capacityDetails: {
           64: {
@@ -148,6 +151,7 @@ export class DataProvider extends Component {
       {
         _id: "4",
         title: "iPhone X🅁",
+        brand: "Apple",
         capacity: [64, 128, 256],
         capacityDetails: {
           64: {
@@ -192,6 +196,7 @@ export class DataProvider extends Component {
       },
       {
         _id: "5",
+        brand: "Samsung",
         title: "Galaxy Z Fold2 5G",
         capacity: [128, 256],
         capacityDetails: {
@@ -224,6 +229,7 @@ export class DataProvider extends Component {
       {
         _id: "6",
         title: "Galaxy A52",
+        brand: "Samsung",
         capacity: [64, 128, 256],
         capacityDetails: {
           64: {
@@ -269,6 +275,7 @@ export class DataProvider extends Component {
       {
         _id: "7",
         title: "Galaxy Z Fold2 5G",
+        brand: "Samsung",
         capacity: [128, 256],
         capacityDetails: {
           128: {
@@ -300,6 +307,7 @@ export class DataProvider extends Component {
       {
         _id: "8",
         title: "Galaxy Z Fold2 5G",
+        brand: "Samsung",
         capacity: [128, 256],
         capacityDetails: {
           128: {
@@ -330,6 +338,7 @@ export class DataProvider extends Component {
       }
     ],
     total: 0,
+    activeBrand: "All",
     selectedCapacity: 0,
     selectedColor: 0
   };
@@ -346,9 +355,32 @@ export class DataProvider extends Component {
     });
   };
 
+  groupBy = (xs, key) => {
+    return xs.reduce(function(rv, x) {
+      if (!rv.includes(x[key])) {
+        rv.push(x[key]);
+      }
+      return rv;
+    }, []);
+  };
+
+  updateActiveBrand = brand => {
+    this.setState({ activeBrand: brand });
+  };
+
   render() {
-    const { products, selectedCapacity, selectedColor } = this.state;
-    const { updateSelectedCapacity, updateSelectedColor } = this;
+    const {
+      products,
+      selectedCapacity,
+      selectedColor,
+      activeBrand
+    } = this.state;
+    const {
+      updateSelectedCapacity,
+      updateSelectedColor,
+      groupBy,
+      updateActiveBrand
+    } = this;
     return (
       <DataContext.Provider
         value={{
@@ -356,7 +388,10 @@ export class DataProvider extends Component {
           updateSelectedCapacity,
           updateSelectedColor,
           selectedColor,
-          selectedCapacity
+          selectedCapacity,
+          groupBy,
+          activeBrand,
+          updateActiveBrand
         }}
       >
         {this.props.children}
