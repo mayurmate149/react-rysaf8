@@ -55,3 +55,10 @@
   letter-spacing: 2px;
   margin: 15px 0;
 }
+
+.mt-md {
+  margin-top: 1rem;
+}
+.mb-md {
+  margin-bottom: 1rem;
+}

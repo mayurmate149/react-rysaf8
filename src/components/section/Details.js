@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { DataContext } from "../Context";
 import { Link } from "react-router-dom";
 import Colors from "./Colors";
+import PaymentOptions from "./PaymentOptions";
 import "../css/Details.css";
 import Capacities from "./Capacity";
 
@@ -53,6 +54,9 @@ export class Details extends Component {
                 <Capacities capacities={capacity} />
                 <p>{capacityDetails[selectedCapacity]?.description}</p>
                 <p>{capacityDetails[selectedCapacity]?.content}</p>
+                <PaymentOptions
+                  price={capacityDetails[selectedCapacity]?.price}
+                />
                 <button className="continue" disabled="true">
                   Continue
                 </button>
