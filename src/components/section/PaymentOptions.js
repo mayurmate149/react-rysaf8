@@ -52,7 +52,7 @@ const MonthlyPayInDetails = amount => {
 const PaymentOptions = function(price) {
   // const { selectedColor, updateSelectedColor } = useContext(DataContext);
   const [fullPayInActive, setFullPayInActive] = useState(false);
-  const [monthlyPayInActive, setmonthlyPayInActive] = useState(true);
+  const [monthlyPayInActive, setmonthlyPayInActive] = useState(false);
 
   const onFullPayInClick = () => {
     setFullPayInActive(true);
