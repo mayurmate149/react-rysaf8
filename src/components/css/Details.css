@@ -51,6 +51,14 @@
   text-decoration: none;
   padding: 10px 25px;
   display: inline-block;
+  cursor: pointer;
+  border: 1px solid #333;
+}
+.box .continue:disabled {
+  background: #e6e6e6;
+  color: #afafaf;
+  border: 1px solid #ccc;
+  cursor: not-allowed;
 }
 .back-btn {
   margin: 50px;

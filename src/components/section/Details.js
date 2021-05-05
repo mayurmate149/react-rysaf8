@@ -30,11 +30,17 @@ export class Details extends Component {
   };
 
   componentDidMount() {
+    const { addToCart } = this.context;
+    addToCart();
     this.getProduct();
   }
   render() {
     const { product } = this.state;
-    const { selectedCapacity, selectedColor } = this.context;
+    const {
+      selectedCapacity,
+      selectedColor,
+      addToCartButtonEnabled
+    } = this.context;
     return (
       <>
         <Link className="back-btn" to="/">
@@ -57,7 +63,7 @@ export class Details extends Component {
                 <PaymentOptions
                   price={capacityDetails[selectedCapacity]?.price}
                 />
-                <button className="continue" disabled="true">
+                <button className="continue" disabled={addToCartButtonEnabled}>
                   Continue
                 </button>
               </div>

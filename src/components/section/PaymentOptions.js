@@ -50,17 +50,19 @@ const MonthlyPayInDetails = amount => {
 };
 
 const PaymentOptions = function(price) {
-  // const { selectedColor, updateSelectedColor } = useContext(DataContext);
+  const { addToCart } = useContext(DataContext);
   const [fullPayInActive, setFullPayInActive] = useState(false);
   const [monthlyPayInActive, setmonthlyPayInActive] = useState(false);
 
   const onFullPayInClick = () => {
     setFullPayInActive(true);
     setmonthlyPayInActive(false);
+    addToCart(price.price, "Full");
   };
   const onMonthlyPayInClick = () => {
     setmonthlyPayInActive(true);
     setFullPayInActive(false);
+    addToCart(price.price, "Installment");
   };
 
   return (
