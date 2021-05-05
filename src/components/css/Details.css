@@ -11,11 +11,15 @@
   display: block;
   object-fit: contain;
   margin: 25px;
+  order: 2;
+  -webkit-order: 2;
 }
 .details .box {
-  max-width: 70%;
+  max-width: 60%;
   min-width: 290px;
   margin: 25px;
+  order: 1;
+  -webkit-order: 1;
 }
 .box .row {
   display: flex;
