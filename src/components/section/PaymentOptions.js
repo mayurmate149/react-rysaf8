@@ -18,8 +18,32 @@ const MonthlyPayInDetails = amount => {
   return (
     <div className="full-pay-in">
       <div className="one-time-payment">
-        <div>Monthly payments</div>
-        <div className="price">$ {price}</div>
+        <div>Monthly Installment</div>
+        <div>
+          <div className="price">${(price / 24).toFixed(2)}/mo</div>
+          <div>for 24 mo.*</div>
+        </div>
+      </div>
+      <div className="one-time-payment">
+        <div>Monthly Installment</div>
+        <div>
+          <div className="price">${(price / 9).toFixed(2)}/mo</div>
+          <div>for 9 mo.*</div>
+        </div>
+      </div>
+      <div className="one-time-payment">
+        <div>Monthly Installment</div>
+        <div>
+          <div className="price">${(price / 6).toFixed(2)}/mo</div>
+          <div>for 6 mo.*</div>
+        </div>
+      </div>
+      <div className="one-time-payment">
+        <div>Monthly Installment</div>
+        <div>
+          <div className="price">${(price / 3).toFixed(2)}/mo</div>
+          <div>for 3 mo.*</div>
+        </div>
       </div>
     </div>
   );
@@ -28,7 +52,7 @@ const MonthlyPayInDetails = amount => {
 const PaymentOptions = function(price) {
   // const { selectedColor, updateSelectedColor } = useContext(DataContext);
   const [fullPayInActive, setFullPayInActive] = useState(false);
-  const [monthlyPayInActive, setmonthlyPayInActive] = useState(false);
+  const [monthlyPayInActive, setmonthlyPayInActive] = useState(true);
 
   const onFullPayInClick = () => {
     setFullPayInActive(true);
