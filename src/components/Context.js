@@ -189,6 +189,144 @@ export class DataProvider extends Component {
               "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-xr-coral-select-201809?wid=470&hei=556&fmt=png-alpha&.v=1551226036571"
           }
         ]
+      },
+      {
+        _id: "5",
+        title: "Galaxy Z Fold2 5G",
+        capacity: [128, 256],
+        capacityDetails: {
+          128: {
+            price: 399,
+            description: "Best way to buy Galaxy Z Fold2 5G(128)",
+            content:
+              "Fingerprint sensor built into the Home button Maximum depth of 1 metre up to 30 minutes Water Resistant True Tone display, Wide colour display (P3), Haptic Touch 625 nits max brightness (typical), Display Zoom, Reachability Portrait mode with advanced bokeh and Depth Control 4K video recording at 24 fps, 30 fps or 60 fps Video Recording Digital zoom up to 3x, LED True Tone flash, QuickTake video Slow-motion video support for 1080p at 120 fps or 240 fps Time-lapse video with stabilisation, Stereo recording 802.11ax Wi‑Fi 6 with 2x2 MIMO, Bluetooth 5.0 wireless technology NFC with reader mode, Express Cards with power reserve FaceTime audio, Voice over LTE (VoLTE), Wi‑Fi calling"
+          },
+          256: {
+            price: 499,
+            description: "Best way to buy Galaxy Z Fold2 5G(256)",
+            content:
+              "Fingerprint sensor built into the Home button Maximum depth of 1 metre up to 30 minutes Water Resistant True Tone display, Wide colour display (P3), Haptic Touch 625 nits max brightness (typical), Display Zoom, Reachability Portrait mode with advanced bokeh and Depth Control 4K video recording at 24 fps, 30 fps or 60 fps Video Recording Digital zoom up to 3x, LED True Tone flash, QuickTake video Slow-motion video support for 1080p at 120 fps or 240 fps Time-lapse video with stabilisation, Stereo recording 802.11ax Wi‑Fi 6 with 2x2 MIMO, Bluetooth 5.0 wireless technology NFC with reader mode, Express Cards with power reserve FaceTime audio, Voice over LTE (VoLTE), Wi‑Fi calling"
+          }
+        },
+        colors: [
+          {
+            name: "Black",
+            imageUrl:
+              "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-z-fold2/buy/pc2.png?imwidth=1366"
+          },
+          {
+            name: "Bronze",
+            imageUrl:
+              "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-z-fold2/buy/pc1.png?imwidth=1366"
+          }
+        ]
+      },
+      {
+        _id: "6",
+        title: "Galaxy A52",
+        capacity: [64, 128, 256],
+        capacityDetails: {
+          64: {
+            price: 399,
+            description:
+              "New Apple iPhone SE (64GB) [Locked] + Carrier Subscription",
+            content:
+              "Fingerprint sensor built into the Home button Maximum depth of 1 metre up to 30 minutes Water Resistant True Tone display, Wide colour display (P3), Haptic Touch 625 nits max brightness (typical), Display Zoom, Reachability Portrait mode with advanced bokeh and Depth Control 4K video recording at 24 fps, 30 fps or 60 fps Video Recording Digital zoom up to 3x, LED True Tone flash, QuickTake video Slow-motion video support for 1080p at 120 fps or 240 fps Time-lapse video with stabilisation, Stereo recording 802.11ax Wi‑Fi 6 with 2x2 MIMO, Bluetooth 5.0 wireless technology NFC with reader mode, Express Cards with power reserve FaceTime audio, Voice over LTE (VoLTE), Wi‑Fi calling"
+          },
+          128: {
+            price: 499,
+            description:
+              "New Apple iPhone SE (128GB) [Locked] + Carrier Subscription",
+            content:
+              "Fingerprint sensor built into the Home button Maximum depth of 1 metre up to 30 minutes Water Resistant True Tone display, Wide colour display (P3), Haptic Touch 625 nits max brightness (typical), Display Zoom, Reachability Portrait mode with advanced bokeh and Depth Control 4K video recording at 24 fps, 30 fps or 60 fps Video Recording Digital zoom up to 3x, LED True Tone flash, QuickTake video Slow-motion video support for 1080p at 120 fps or 240 fps Time-lapse video with stabilisation, Stereo recording 802.11ax Wi‑Fi 6 with 2x2 MIMO, Bluetooth 5.0 wireless technology NFC with reader mode, Express Cards with power reserve FaceTime audio, Voice over LTE (VoLTE), Wi‑Fi calling"
+          },
+          256: {
+            price: 529,
+            description:
+              "New Apple iPhone SE (256GB) [Locked] + Carrier Subscription",
+            content:
+              "Fingerprint sensor built into the Home button Maximum depth of 1 metre up to 30 minutes Water Resistant True Tone display, Wide colour display (P3), Haptic Touch 625 nits max brightness (typical), Display Zoom, Reachability Portrait mode with advanced bokeh and Depth Control 4K video recording at 24 fps, 30 fps or 60 fps Video Recording Digital zoom up to 3x, LED True Tone flash, QuickTake video Slow-motion video support for 1080p at 120 fps or 240 fps Time-lapse video with stabilisation, Stereo recording 802.11ax Wi‑Fi 6 with 2x2 MIMO, Bluetooth 5.0 wireless technology NFC with reader mode, Express Cards with power reserve FaceTime audio, Voice over LTE (VoLTE), Wi‑Fi calling"
+          }
+        },
+        colors: [
+          {
+            name: "black",
+            imageUrl:
+              "https://www.reliancedigital.in/medias/Samsung-A52-Smart-Phones-491947167-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w0MDUwODF8aW1hZ2UvanBlZ3xpbWFnZXMvaDQ0L2hmNy85NTA4MDgxODI3ODcwLmpwZ3xkMTRhMGUyNzU3NDdhNTBkODJkNWFlNjliY2FmNWJjMDk5ZGMxM2E1NTNjMmU4NjM2NDE3ODliN2VjNGQyZTI2"
+          },
+          {
+            name: "blue",
+            imageUrl:
+              "https://www.reliancedigital.in/medias/Samsung-A52-Smart-Phones-491947167-i-6-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMjE3MzN8aW1hZ2UvanBlZ3xpbWFnZXMvaDczL2g5ZC85NTA4MDg0NDQ5MzEwLmpwZ3w3NmE0MjlmNmQ1MTc3MmFjYjc4OTdlZGVkNjJiMmUzNjhiNTZlZTIyMzMzNDgzYjZkMzdiYTI3N2QwOTEwZjBm"
+          },
+          {
+            name: "black",
+            imageUrl:
+              "https://www.reliancedigital.in/medias/Samsung-A52-Smart-Phones-491947167-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w0MDUwODF8aW1hZ2UvanBlZ3xpbWFnZXMvaDQ0L2hmNy85NTA4MDgxODI3ODcwLmpwZ3xkMTRhMGUyNzU3NDdhNTBkODJkNWFlNjliY2FmNWJjMDk5ZGMxM2E1NTNjMmU4NjM2NDE3ODliN2VjNGQyZTI2"
+          }
+        ]
+      },
+      {
+        _id: "7",
+        title: "Galaxy Z Fold2 5G",
+        capacity: [128, 256],
+        capacityDetails: {
+          128: {
+            price: 399,
+            description: "Best way to buy Galaxy Z Fold2 5G(128)",
+            content:
+              "Fingerprint sensor built into the Home button Maximum depth of 1 metre up to 30 minutes Water Resistant True Tone display, Wide colour display (P3), Haptic Touch 625 nits max brightness (typical), Display Zoom, Reachability Portrait mode with advanced bokeh and Depth Control 4K video recording at 24 fps, 30 fps or 60 fps Video Recording Digital zoom up to 3x, LED True Tone flash, QuickTake video Slow-motion video support for 1080p at 120 fps or 240 fps Time-lapse video with stabilisation, Stereo recording 802.11ax Wi‑Fi 6 with 2x2 MIMO, Bluetooth 5.0 wireless technology NFC with reader mode, Express Cards with power reserve FaceTime audio, Voice over LTE (VoLTE), Wi‑Fi calling"
+          },
+          256: {
+            price: 499,
+            description: "Best way to buy Galaxy Z Fold2 5G(256)",
+            content:
+              "Fingerprint sensor built into the Home button Maximum depth of 1 metre up to 30 minutes Water Resistant True Tone display, Wide colour display (P3), Haptic Touch 625 nits max brightness (typical), Display Zoom, Reachability Portrait mode with advanced bokeh and Depth Control 4K video recording at 24 fps, 30 fps or 60 fps Video Recording Digital zoom up to 3x, LED True Tone flash, QuickTake video Slow-motion video support for 1080p at 120 fps or 240 fps Time-lapse video with stabilisation, Stereo recording 802.11ax Wi‑Fi 6 with 2x2 MIMO, Bluetooth 5.0 wireless technology NFC with reader mode, Express Cards with power reserve FaceTime audio, Voice over LTE (VoLTE), Wi‑Fi calling"
+          }
+        },
+        colors: [
+          {
+            name: "Black",
+            imageUrl:
+              "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-z-fold2/buy/pc2.png?imwidth=1366"
+          },
+          {
+            name: "Bronze",
+            imageUrl:
+              "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-z-fold2/buy/pc1.png?imwidth=1366"
+          }
+        ]
+      },
+      {
+        _id: "8",
+        title: "Galaxy Z Fold2 5G",
+        capacity: [128, 256],
+        capacityDetails: {
+          128: {
+            price: 399,
+            description: "Best way to buy Galaxy Z Fold2 5G(128)",
+            content:
+              "Fingerprint sensor built into the Home button Maximum depth of 1 metre up to 30 minutes Water Resistant True Tone display, Wide colour display (P3), Haptic Touch 625 nits max brightness (typical), Display Zoom, Reachability Portrait mode with advanced bokeh and Depth Control 4K video recording at 24 fps, 30 fps or 60 fps Video Recording Digital zoom up to 3x, LED True Tone flash, QuickTake video Slow-motion video support for 1080p at 120 fps or 240 fps Time-lapse video with stabilisation, Stereo recording 802.11ax Wi‑Fi 6 with 2x2 MIMO, Bluetooth 5.0 wireless technology NFC with reader mode, Express Cards with power reserve FaceTime audio, Voice over LTE (VoLTE), Wi‑Fi calling"
+          },
+          256: {
+            price: 499,
+            description: "Best way to buy Galaxy Z Fold2 5G(256)",
+            content:
+              "Fingerprint sensor built into the Home button Maximum depth of 1 metre up to 30 minutes Water Resistant True Tone display, Wide colour display (P3), Haptic Touch 625 nits max brightness (typical), Display Zoom, Reachability Portrait mode with advanced bokeh and Depth Control 4K video recording at 24 fps, 30 fps or 60 fps Video Recording Digital zoom up to 3x, LED True Tone flash, QuickTake video Slow-motion video support for 1080p at 120 fps or 240 fps Time-lapse video with stabilisation, Stereo recording 802.11ax Wi‑Fi 6 with 2x2 MIMO, Bluetooth 5.0 wireless technology NFC with reader mode, Express Cards with power reserve FaceTime audio, Voice over LTE (VoLTE), Wi‑Fi calling"
+          }
+        },
+        colors: [
+          {
+            name: "Black",
+            imageUrl:
+              "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-z-fold2/buy/pc2.png?imwidth=1366"
+          },
+          {
+            name: "Bronze",
+            imageUrl:
+              "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-z-fold2/buy/pc1.png?imwidth=1366"
+          }
+        ]
       }
     ],
     total: 0,
