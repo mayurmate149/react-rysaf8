@@ -335,6 +335,38 @@ export class DataProvider extends Component {
               "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-z-fold2/buy/pc1.png?imwidth=1366"
           }
         ]
+      },
+      {
+        _id: "9",
+        title: "Redmi Note 9",
+        brand: "Mi",
+        capacity: [128, 256],
+        capacityDetails: {
+          128: {
+            price: 399,
+            description: "Best way to buy Galaxy Z Fold2 5G(128)",
+            content:
+              "Fingerprint sensor built into the Home button Maximum depth of 1 metre up to 30 minutes Water Resistant True Tone display, Wide colour display (P3), Haptic Touch 625 nits max brightness (typical), Display Zoom, Reachability Portrait mode with advanced bokeh and Depth Control 4K video recording at 24 fps, 30 fps or 60 fps Video Recording Digital zoom up to 3x, LED True Tone flash, QuickTake video Slow-motion video support for 1080p at 120 fps or 240 fps Time-lapse video with stabilisation, Stereo recording 802.11ax Wi‑Fi 6 with 2x2 MIMO, Bluetooth 5.0 wireless technology NFC with reader mode, Express Cards with power reserve FaceTime audio, Voice over LTE (VoLTE), Wi‑Fi calling"
+          },
+          256: {
+            price: 499,
+            description: "Best way to buy Galaxy Z Fold2 5G(256)",
+            content:
+              "Fingerprint sensor built into the Home button Maximum depth of 1 metre up to 30 minutes Water Resistant True Tone display, Wide colour display (P3), Haptic Touch 625 nits max brightness (typical), Display Zoom, Reachability Portrait mode with advanced bokeh and Depth Control 4K video recording at 24 fps, 30 fps or 60 fps Video Recording Digital zoom up to 3x, LED True Tone flash, QuickTake video Slow-motion video support for 1080p at 120 fps or 240 fps Time-lapse video with stabilisation, Stereo recording 802.11ax Wi‑Fi 6 with 2x2 MIMO, Bluetooth 5.0 wireless technology NFC with reader mode, Express Cards with power reserve FaceTime audio, Voice over LTE (VoLTE), Wi‑Fi calling"
+          }
+        },
+        colors: [
+          {
+            name: "Black",
+            imageUrl:
+              "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1604032680.47956497.png"
+          },
+          {
+            name: "Blue",
+            imageUrl:
+              "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1595220145.86223712.png"
+          }
+        ]
       }
     ],
     total: 0,

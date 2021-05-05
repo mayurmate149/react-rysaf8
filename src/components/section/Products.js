@@ -9,7 +9,9 @@ export class Products extends Component {
 
   render() {
     const { products, activeBrand } = this.context;
-    let productData = products.filter(product => activeBrand == 'All' ? product : product.brand == activeBrand);
+    let productData = products.filter(product =>
+      activeBrand == "All" ? product : product.brand == activeBrand
+    );
     return (
       <div>
         <BrandFilter />
