@@ -44,7 +44,6 @@ export class Details extends Component {
           const color = colors.find(color => color.name === selectedColor);
           return (
             <div className="details" key={item._id}>
-              <img src={color?.imageUrl} alt="" />
               <div className="box">
                 <div className="row">
                   <h2>{item.title}</h2>
@@ -58,6 +57,7 @@ export class Details extends Component {
                   Continue
                 </button>
               </div>
+              <img src={color?.imageUrl} alt="" />
             </div>
           );
         })}
